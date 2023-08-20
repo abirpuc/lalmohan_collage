@@ -3,6 +3,7 @@ import { AuthContext } from '../../../../Context/ContextProvider'
 import BannerContainer from '../../../Banner/BannerContainer/BannerContainer'
 import Mujib from '../../../AddContainer/Mujib/Mujib'
 import DirectorContainer from '../../../Director/DirectorContainer'
+import NoticeBoard from '../../../NoticeBoard/NoticeBoard/NoticeBoard'
 
 export default function Home() {
   const user = useContext(AuthContext)
@@ -13,6 +14,7 @@ export default function Home() {
       </div>
         <Mujib/>
         <DirectorContainer/>
+        <NoticeBoard/>
     </>
   )
 }

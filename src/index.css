@@ -293,8 +293,6 @@ a {
 }
 
 #notice .container .row .recent .shgTr a {
-    border: 1px solid #b1dae7;
-    background-color: #b1dae7;
     padding: 6px 10px;
     border-radius: 12px
 }

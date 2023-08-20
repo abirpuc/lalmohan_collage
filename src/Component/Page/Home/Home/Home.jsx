@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { AuthContext } from '../../../../Context/ContextProvider'
+import BannerContainer from '../../../Banner/BannerContainer/BannerContainer'
 
 export default function Home() {
+  const user = useContext(AuthContext)
   return (
-    <div>Home</div>
+    <>
+      <div className="mx-4">
+        <BannerContainer />
+      </div>
+    </>
   )
 }

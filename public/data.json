@@ -1,0 +1,216 @@
+{
+    "sliders": [{
+        "id": 6,
+        "institute_id": "2211062",
+        "slider_pos": 1,
+        "slider_img": "1675866858.jpg",
+        "title": null,
+        "description": null,
+        "created_at": "2023-08-09T10:45:45.000000Z",
+        "updated_at": "2023-08-09T10:45:45.000000Z"
+      }, {
+        "id": 7,
+        "institute_id": "2211062",
+        "slider_pos": 2,
+        "slider_img": "1675867166.jpg",
+        "title": null,
+        "description": null,
+        "created_at": "2023-08-09T10:48:52.000000Z",
+        "updated_at": "2023-08-09T10:48:52.000000Z"
+      }, {
+        "id": 8,
+        "institute_id": "2211062",
+        "slider_pos": 3,
+        "slider_img": "1675867308.jpg",
+        "title": null,
+        "description": null,
+        "created_at": "2023-08-09T10:49:21.000000Z",
+        "updated_at": "2023-08-09T10:49:21.000000Z"
+      }, {
+        "id": 9,
+        "institute_id": "2211062",
+        "slider_pos": 4,
+        "slider_img": "1675867374.jpg",
+        "title": null,
+        "description": null,
+        "created_at": "2023-08-09T10:49:49.000000Z",
+        "updated_at": "2023-08-09T10:49:49.000000Z"
+      }, {
+        "id": 10,
+        "institute_id": "2211062",
+        "slider_pos": 5,
+        "slider_img": "1675867463.jpg",
+        "title": null,
+        "description": null,
+        "created_at": "2023-08-09T10:50:14.000000Z",
+        "updated_at": "2023-08-09T10:50:14.000000Z"
+      },
+      {
+        "id": 10,
+        "institute_id": "2211062",
+        "slider_pos": 6,
+        "slider_img": "1679492550.jpg",
+        "title": null,
+        "description": null,
+        "created_at": "2023-08-09T10:50:14.000000Z",
+        "updated_at": "2023-08-09T10:50:14.000000Z"
+      }
+    
+    ],
+    "menu_list":[
+    {
+        "id":1,
+        "menu_label":"Home",
+        "menu_url":"/"
+    },
+    {
+        "id":2,
+        "menu_label":"About Us",
+        "menu_url":"/"
+    },
+    {
+        "id":3,
+        "menu_label":"Administration Info",
+        "menu_url":"/"
+    },
+    {
+        "id":4,
+        "menu_label":"Academic Info",
+        "menu_url":"/"
+    },
+    {
+        "id":9,
+        "menu_label":"Institution Info",
+        "menu_url":"/"
+    },
+    {
+        "id":5,
+        "menu_label":"Exam Result",
+        "menu_url":"/"
+    },
+    {
+        "id":6,
+        "menu_label":"Digital Campus",
+        "menu_url":"/"
+    },
+    {
+        "id":7,
+        "menu_label":"Medial",
+        "menu_url":"/"
+    },
+    {
+        "id":8,
+        "menu_label":"Download Corner",
+        "menu_url":"/"
+    }
+    ],
+    "submenu_list":{
+        "2":[
+            {
+            "id": 12,
+            "submenu_label":"About Institution",
+            "url":"/"
+            },
+            {
+            "id": 13,
+            "submenu_label":"Mission & vision",
+            "url":"/"
+            },
+            {
+            "id": 14,
+            "submenu_label":"contact Us",
+            "url":"/"
+            }
+        ],
+        "3":[
+            {
+                "id":15,
+                "submenu_label":"Principle",
+                "url":"/"
+            }
+        ],
+        "4":[
+            {
+                "id":16,
+                "submenu_label":"Class Routine",
+                "url":"/"
+            }
+        ],
+        "5":[
+            {
+                "id":17,
+                "submenu_label":"English Language Club",
+                "url":"/"
+            },
+            {
+                "id":18,
+                "submenu_label":"Meritorious Student",
+                "url":"/"
+            }
+        ],
+        "6":[
+            {
+                "id":17,
+                "submenu_label":"English Language Club",
+                "url":"/"
+            },
+            {
+                "id":18,
+                "submenu_label":"Meritorious Student",
+                "url":"/"
+            }
+        ],
+        "7":[
+            {
+                "id":19,
+                "submenu_label":"Hsc Result",
+                "url":"/"
+            },
+            {
+                "id":20,
+                "submenu_label":"SSC Result",
+                "url":"/"
+            },
+            {
+                "id":20,
+                "submenu_label":"JSC Result",
+                "url":"/"
+            }
+        ],
+        "8":[
+            {
+                "id":21,
+                "submenu_label":"Computer Lab",
+                "url":"/"
+            }
+        ],
+        "9":[
+            {
+                "id":22,
+                "submenu_label":"Video",
+                "url":"/"
+            },
+            {
+                "id":23,
+                "submenu_label":"Form",
+                "url":"/"
+            },
+            {
+                "id":24,
+                "submenu_label":"JSC Scholarship",
+                "url":"/"
+            },
+            {
+                "id":25,
+                "submenu_label":"HSC Scholarship",
+                "url":"/"
+            },
+            {
+                "id":26,
+                "submenu_label":"Pec Scholarship",
+                "url":"/"
+            }
+            
+        ]
+    }
+}

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Mujib() {
     return (
-        <div>
+        <div className="mb-2">
             <div id="sobornojointy">
                 <div className="container">
                     <div className="row">

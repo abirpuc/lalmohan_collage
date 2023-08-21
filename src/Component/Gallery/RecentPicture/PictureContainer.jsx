@@ -1,20 +1,21 @@
 import React, { useEffect } from 'react'
 import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel'; // Import Owl Carousel default theme CSS
-import 'jquery'; // Import jQuery (required for Owl Carousel)
+import 'owl.carousel'; 
+import 'jquery'; 
 
 export default function PictureContainer() {
   useEffect(() => {
-    // Initialize Owl Carousel
+   
     $('.owl-carousel').owlCarousel({
-      items: 6, // Number of items to display
-      loop: true, // Infinite loop
-      margin: 10, // Margin between items
-      autoplay: true, // Autoplay the carousel
+      items: 6, 
+      loop: true,
+      rewind: true,
+      margin: 10,
+      autoplay: true,
     });
   }, []);
   return (
-    <div id="recent_pic">
+    <div id="recent_pic" className="my-4">
       <div className="container">
         <div className="dJuyt text-center">
           <h2>Recent Picture</h2>
@@ -69,7 +70,7 @@ export default function PictureContainer() {
                   alt
                 />
               </div>
-              <div className="item">
+              {/* <div className="item">
                 <img
                   src="https://lhmrschoolandcollege.edu.bd/images/gallery/1675672642.jpg"
                   alt
@@ -272,7 +273,7 @@ export default function PictureContainer() {
                   src="https://lhmrschoolandcollege.edu.bd/images/gallery/1686220806.jpg"
                   alt
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

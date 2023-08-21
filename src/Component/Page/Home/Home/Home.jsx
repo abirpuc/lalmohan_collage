@@ -5,6 +5,8 @@ import Mujib from '../../../AddContainer/Mujib/Mujib'
 import DirectorContainer from '../../../Director/DirectorContainer'
 import NoticeBoard from '../../../NoticeBoard/NoticeBoard/NoticeBoard'
 import PictureContainer from '../../../Gallery/RecentPicture/PictureContainer'
+import AcademicCalendar from '../../../AcademicCalendar/AcademicCalendar'
+import AcademicInformation from '../../../AcademicInfomation/AcademicInformation'
 
 export default function Home() {
   const user = useContext(AuthContext)
@@ -15,8 +17,10 @@ export default function Home() {
       </div>
         <Mujib/>
         <DirectorContainer/>
+        <AcademicInformation/>
         <NoticeBoard/>
         <PictureContainer/>
+        <AcademicCalendar/>
     </>
   )
 }

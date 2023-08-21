@@ -7,7 +7,7 @@ export default function DirectorImage(props) {
             src={`src/assets/speech/${props.image}`}
             alt="speech"
             className="img-fluid mx-auto d-block"
-            style={{ maxWidth: "300px" }}
+            style={{ maxWidth: "250px" }}
         />
     )
 }

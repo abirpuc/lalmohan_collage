@@ -19,7 +19,7 @@ export default function NavBar() {
         <Nav className="me-auto">
           {
             menu.map((menu) =>  subMenu[menu.id] ? 
-            <NavDropdown className="my-dropdown-title" style={titleStyle} key={menu.id} title={menu.menu_label} id="collasible-nav-dropdown">
+            <NavDropdown className="my-dropdown-title" style={titleStyle} key={menu.id} title={menu.menu_label} id="basic-nav-dropdown">
               {
                 subMenu[menu.id].map(subMenuItem => <NavDropdown.Item key={subMenuItem.id} href={subMenuItem.url}>{subMenuItem.submenu_label}</NavDropdown.Item>)
               }

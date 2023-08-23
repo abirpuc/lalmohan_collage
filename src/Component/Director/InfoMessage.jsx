@@ -9,7 +9,7 @@ export default function InfoMessage(props) {
     }, [props.message])
 
     const ReadMore = ()=>{
-        setLength(length+300)
+        setLength(length+400)
     }
     return (
         <div className="contentOfPr">

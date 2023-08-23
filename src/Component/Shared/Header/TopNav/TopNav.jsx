@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { FaPhoneSquareAlt, FaRegEnvelope } from "react-icons/fa";
-export default function TopNav() {
+import { AuthContext } from '../../../../Context/ContextProvider';
+export default function TopNav({user}) {
+    console.log(user)
     return (
         <div>
             <div className="top-nav" style={{ backgroundColor: '#19686d' }}>
@@ -12,7 +14,7 @@ export default function TopNav() {
                             <div className="nav-item text-sm">
                                 <ul className="nav text-sm">
                                     <li className="nav-link" style={{color: "#ffffff"}}>
-                                        <span>EIIN No. 130678</span>
+                                        <span>EIIN No. {user[0]?.EIIN_number}</span>
                                     </li>
                                     <li className="nav-link d-flex align-items-center" style={{color: "#ffffff"}}>
                                         {/* <i
@@ -26,7 +28,7 @@ export default function TopNav() {
                                             href="/cdn-cgi/l/email-protection"
                                             className="text-decoration-none text-light m-2"
                                             data-cfemail="452d24282c282426242120283c7577052228242c296b262a28"
-                                        >email@gmail.com</Link
+                                        >{user[0]?.email}</Link
                                             ></span
                                         >&nbsp;&nbsp;
                                     </li>

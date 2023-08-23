@@ -10,6 +10,7 @@ export default function ContextProvider({children}) {
   const [subMenu, setSubMenu] = useState([])
   const [slider, setSlider] = useState([])
   const [director, setDirector] = useState([])
+  const [user, setUser] = useState([])
  
   useEffect(()=>{
     async function fetchData(){
@@ -26,6 +27,7 @@ export default function ContextProvider({children}) {
         setSubMenu(data.submenu_list)
         setSlider(data.sliders)
         setDirector(data.speeches)
+        setUser(data.users)
 
       }catch(e){
         setError(e)
@@ -41,7 +43,8 @@ export default function ContextProvider({children}) {
     menu,
     subMenu,
     slider,
-    director
+    director,
+    user
   }
 
   return (

@@ -39,6 +39,10 @@ a {
     color: #fff
 }
 
+.my-dropdown-title{
+  color:white !important
+}
+
 .header {
     position: relative
 }
